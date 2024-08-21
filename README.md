@@ -31,6 +31,8 @@ PEI Group
 6. Create enriched tables for each use case as per the requirement.
 7. Run SQL queries on the saved delta tables with Spark SQL commands.
 
+![Dataflow](https://github.com/BalaramTupili/PEI-TASK/blob/main/DataFlow.jpg)
+
 ## Observations:
 1. Duplicate data.
     * No duplicates in the customer table.
@@ -38,3 +40,5 @@ PEI Group
 2. When data grows, we need to think of optimizations like partitions, resolving skew data issues, optimal join strategy (broadcast, bucketing), and using delta optimization features to store data optimally.
 3. Input files has PII data and need to handle it properly using data governance rules.
 4. More inputs towards business requirements will help to add more test cases.
+
+
